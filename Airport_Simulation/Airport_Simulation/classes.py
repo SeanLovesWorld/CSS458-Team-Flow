@@ -3,7 +3,8 @@
 #=========================== SIMULATION OBJECTS ==============================#
 class Jet:	#Base jet class
 	def __init__(self):	
-		self.fuel;			#In gallons?		
+		self.name;              #AA302
+		self.fuel;		#In gallons?		
 		self.weight;		#In pounds
 		self.emg_status;	#Emergency Status
 		self.apt_status;	#Process Status
